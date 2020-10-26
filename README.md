@@ -1,0 +1,2 @@
+# key-cave-adventure
+Key Cave Adventure Game ​ is a single-player dungeon-crawler game where the player adventurously explores a dungeon. The objective is for the player to find the key and get out of the dungeon through the door. This game is full of adventure. The game play utilises simple key commands. The positions of Entities are always represented as (row, col).​ The game’s grid should always be a square. 
