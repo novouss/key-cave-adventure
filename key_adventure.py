@@ -64,7 +64,7 @@ def load_game(filename):
 
 	dungeon_layout = []
 
-	with open(f'a2/{filename}', "r") as file:
+	with open(f'levels/{filename}', "r") as file:
 		game_layout = file.readlines()
 
 	for index in range(len(game_layout)):
@@ -481,11 +481,7 @@ class GameApp:
 		else:
 			print(INVALID)
 
-		# Something about other actions Im too lazy to give a shit about just insert them somewhere here
-		# I think it has something to do with Inventory checking, Help, and Quiting the damn game.
-		# Honestly its just some extras that I can care less about. Anyways here's the end of the Key-venture
-		# Project suck my tits gagp
-		
+		# Missing HELP, QUIT, and INVENTORY Commands for user
 
 	if game.won():
 		print(WIN_TEXT)
