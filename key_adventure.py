@@ -138,7 +138,7 @@ class GameLogic:
 		# Very similar to ( init_game_information )  in terms of function.
 		return self.init_game_information()
 
-	def get_player():
+	def get_player(self):
 		# Returns the Player object within the game. 
 		return Entity.get_id( self._player )
 
@@ -206,10 +206,6 @@ class GameLogic:
 			self._dungeon[new_pos[0]][new_pos[1]] = self._player._id
 
 			self._player.set_position(new_pos)
-
-			# self._game_information = self.init_game_information()
-
-		# self._display.display_game(self._player.position)
 
 	def check_game_over(self) -> bool:
 		# Return if user has used all their moves
